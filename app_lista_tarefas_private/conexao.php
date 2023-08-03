@@ -3,9 +3,9 @@
 class Conexao {
 
     private $host = 'localhost';
-    private $dbname = 'db_app_lista_tarefas';
-    private $user = 'root';
-    private $pass = '724405';
+    private $dbname = '';
+    private $user = '';
+    private $pass = '';
 
     public function conectar(){
         try {
